@@ -1,0 +1,28 @@
+<div class="leftDiv" id="sideLeft" active="{{active.sideLeft}}">
+    <div class="inquiryCar">账户管理</div>
+    <div class="inquiryCarT sideLi" onclick="location.href='/personCenter/securitySetting'">安全设置</div>
+    <div class="inquiryCarT sideLi" onclick="location.href='/personCenter/childAccountManagement'">子帐号管理</div>
+    <div class="inquiryCar">资金管理</div>
+    <div class="inquiryCarT sideLi" onclick="location.href='/personCenter/presentationRecord'">提现记录</div>
+    <div class="inquiryCarT sideLi"  onclick="location.href='/personCenter/capitalRecord'">资金记录</div>
+</div>
+<script>
+//一级导航
+var oLi = document.getElementsByClassName("sideLi");
+
+var num = document.getElementById("sideLeft").getAttribute("active");
+
+if(num){addClass(oLi[num],'active')}
+function addClass(obj, cls) {
+    if (!this.hasClass(obj, cls)) obj.className += " " + cls;
+}
+function hasClass(obj, cls) {
+    return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+}
+/*function addClass(obj, cls){
+    var obj_class = obj.className,//获取 class 内容.
+            blank = (obj_class != '') ? ' ' : '';//判断获取到的 class 是否为空, 如果不为空在前面加个'空格'.
+    added = obj_class + blank + cls;//组合原来的 class 和需要添加的 class.
+    obj.className = added;//替换原来的 class.
+}*/
+</script>

@@ -1,0 +1,642 @@
+.content{
+    margin-top: 20px!important;
+}
+.valid{
+    margin-left: 0;
+}
+.offerUl  label.error{
+    margin-left: 170px;
+    position: absolute;
+    margin-top: -20px;
+}
+.info{
+    width: 1028px;
+    padding-left: 10px;
+    margin-left: -4px;
+    border:solid 1px #eee;
+    min-height: 940px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.inquiryCarHeader{
+    width: 920px;
+    height: 50px;
+    line-height: 52px;
+    color: #666;
+    margin: 0 auto;
+}
+.inquiryCarHeader input[type=checkbox]{
+    margin: 0 10px;
+    top:2px;
+}
+.inquiryCarLis{
+    width: 970px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+.inquiryCarLis li{
+    height: 120px;
+    border-bottom: 1px #eeeeee solid;
+}
+.inquiryCarLis li>div{
+    height: 120px;
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+.inquiryCarLis li input[type=checkbox]{
+    margin: 50px 30px 50px 35px;
+    float: left;
+}
+.inquiryCarLis li .goodsImg{
+    width: 86px;
+    height: 86px;
+    float: left;
+    margin-top: 17px;
+    border: 0;
+}
+.inquiryCarLis li .goodsName{
+    margin-top: 20px;
+}
+.inquiryCarLis li .goodsMsg{
+    margin-top: 10px;
+}
+.inquiryCarLis li .goodsNumberBox{
+    width: 136px;
+    height: 32px;
+    border: solid #e6dfdf 1px;
+    margin-top: 40px;
+}
+.inquiryCarLis li .goodsNumberBox button{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    font-family: "楷体";
+    color: #999;
+    background: #f3f3f3;
+    border: 0;
+}
+.inquiryCarLis li .goodsNumberBox button:active{
+    background: #eee;
+}
+.inquiryCarLis li .goodsNumberBox i:active{
+    line-height: 33px;
+}
+.inquiryCarLis li .goodsNumberBox .goodsNumber{
+    display: block;
+    float: left;
+    width: 70px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: 0;
+    background: #f9f9f9;
+    border-right: solid 1px #e6dfdf;
+    border-left: solid 1px #e6dfdf;
+    color: #666;
+}
+.inquiryCarLis li .delivery{
+    width: 78px;
+    height: 32px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    background: #f9f9f9;
+    border: solid 1px #e6dfdf;
+    color: #666;
+}
+.inquiryCarLis li .operation{
+    margin-top: 35px;
+}
+.inquiryCarLis li .operation em{
+    color: #006cff;
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.inquiryCarLis li:hover{
+    background: #e2e6ea;
+}
+.inquirySubBox{
+    width: 970px;
+    margin: auto;
+    text-align: right;
+}
+.inquirySub{
+    width: 150px;
+    height: 50px;
+    background: #e98300;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 60px 0px 40px 0;
+    position: relative;
+}
+.inquirySub:active{
+    top:1px;
+}
+.inquiryCarHeader .cleanCar{
+    color: #006cff;
+    cursor: pointer;
+}
+
+
+
+/*收货地址*/
+
+.addressBox{
+    margin: 18px;
+    background: #f5fbfd;
+    width: 970px;
+    height: 513px;
+}
+
+.editTitle{
+    width: 125px;
+    text-align: right;
+    font-size: 14px;
+    float: left;
+}
+.editTitle li{
+    margin-top: 48px;
+    font-size: 14px;
+}
+.editBox{
+    height: 380px;
+    width: 395px;
+    float: left;
+    margin-left: 10px;
+}
+.editBox li{
+    width: 395px;
+    height: 41px;
+    margin-top: 30px;
+}
+.enterpriseEdit{
+    border: solid #d1d1d1 1px;
+    width: 385px;
+    height: 41px;
+    padding-left: 10px;
+}
+.license{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.defaultAddress{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 135px;
+}
+.defaultCheck{
+    vertical-align: middle;
+    display: inline-block;
+}
+.defaultAddressT{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+}
+.addressBtn{
+    cursor: pointer;
+    width: 130px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    background: #e98300;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 135px;
+    margin-top: 15px;
+}
+.addressBtn:hover{
+    background: #e99709;
+}
+.addressBtn:active{
+    margin-top: 17px;
+}
+.addressExplain{
+    margin-left: 18px;
+    width: 970px;
+    height: 55px;
+    background: #f9f9f9;
+    line-height: 55px;
+    font-size: 14px;
+}
+.addressExplain li{
+    float: left;
+    text-align: center;
+}
+.with1{
+    width: 180px;
+}
+.with2{
+    width: 200px;
+}
+.with3{
+    width: 150px;
+}
+.with4{
+    width:135px;
+}
+.addressLis{
+    margin-left:18px;
+    width: 970px;
+}
+.addressLis>li{
+    height:84px;
+    line-height: 84px;
+    text-align: center;
+    border: #eeeeee solid 1px;
+}
+.addressContent li{
+    float: left;
+    height: 84px;
+}
+.wt1{
+    width: 170px;
+}
+.wt2{
+    width: 210px;
+    height: 55px;
+}
+.wt3{
+    width: 138px;
+}
+.wt4{
+    width: 140px;
+}
+.wt5{
+    width: 120px;
+}
+.wt6{
+    width: 160px;
+}
+.defaultBtn{
+    width:126px;
+    height:47px;
+    border-radius: 7px;
+    border:#e98300 solid 1px;
+    background: #fff;
+    color: #e98300;
+    font-size: 12px;
+}
+.address{
+    line-height: 21px;
+    position: relative;
+    top: 28px;
+    width: 210px;
+}
+.xiu{
+    color: #3c8bf5;
+    cursor: pointer;
+}
+.shan{
+    color: #3c8bf5;
+    cursor: pointer;
+}
+.explainBak{
+    background: #f9f9f9;
+    width:980px;
+    height: 145px;
+    margin: 20px auto;
+    color: #666666;
+    border-top:1px solid #f9f9f9;
+}
+.comMg{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.nextBak{
+    background: #f5fbfd;
+    width:980px;
+    height: 570px;
+    margin: 20px auto;
+    color: #666666;
+    border-top:1px solid #f5fbfd;
+}
+.offerInputT{
+    width: 140px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.offerInput{
+    width: 430px;
+    height: 40px;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.offerInputX{
+    width: 270px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.offerInputR{
+    height: 40px;
+    width: 130px;
+    border: 1px #dadada solid;
+    background: #f5f5f5;
+    margin-left: 20px;
+}
+.bandButton{
+    width: 430px;
+    height: 50px;
+    border: 0;
+    background: #e98300;
+    color: #fff;
+    font-size:14px;
+    border-radius: 6px;
+    margin-left: 160px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.offerUl li{
+    height: 80px;
+    line-height:80px;
+}
+.offerButton1else{
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    background: #e98300;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 165px;
+    border: 0;
+}
+.offerButton1{
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    background: #e98300;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 330px;
+    border: 0;
+}
+.offerButton2{
+    cursor: pointer;
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: #e98300;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lisUl{
+    margin: 20px auto;
+    width: 990px;
+}
+.lisUl>li{
+    width: 480px;
+    height: 350px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: #ececec 1px solid;
+}
+.lisTitle{
+    height: 32px;
+    line-height: 32px;
+    background: #f9f9f9;
+}
+.lisMg{
+    margin-left: 20px;
+}
+.lisContent li{
+    height: 42px;
+    line-height: 42px;
+}
+.lisLeft{
+    width: 125px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lisRight{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lisInputDiv{
+    height: 65px;
+    border-top:solid 1px #ececec;
+    line-height:65px;
+}
+.lisInput1{
+    width: 87px;
+    height: 30px;
+    border-radius:5px;
+    background: #f9f9f9;
+    border: solid 1px #ececec;
+    margin-left: 164px;
+}
+.lisInput2{
+    margin-left: 10px;
+    width: 87px;
+    height: 30px;
+    border-radius:5px;
+    background: #f9f9f9;
+    border: solid 1px #ececec;
+}
+.lisInput3{
+    margin-left: 10px;
+    width: 87px;
+    height: 30px;
+    border-radius:5px;
+    color: #e98300;
+    background: #f9f9f9;
+    border: solid 1px #e98300;
+    cursor: pointer;
+}
+.subMangerTop{
+    width: 980px;
+    margin: 20px auto;
+    height: 86px;
+    line-height: 86px;
+    position: relative;
+}
+.subMangerTopC{
+    width: 143px;
+    height: 37px;
+    border: #d1d1d1 1px solid;
+    border-radius: 5px;
+    background: #fafafa;
+    margin-left: 660px;
+    cursor: pointer;
+}
+.subMangerTitle{
+    height: 45px;
+    line-height:45px;
+    border: 1px solid #d1d1d1;
+    margin: 10px auto;
+    width: 980px;
+    background: #fcfcfc;
+}
+.wth20{
+    width: 16%;
+    float: left;
+    text-align: center;
+}
+.wth20 a{
+    color:blue;
+}
+.subMangerUl{
+    width: 980px;
+    margin: 0 auto;
+}
+.subMangerUl>li{
+    height: 73px;
+    line-height: 73px;
+    border:solid 1px #d1d1d1;
+}
+.blueC2{
+    color:#006cff;
+    cursor: pointer;
+    margin-left: 160px;
+}
+.blueC{
+    color:#006cff;
+    cursor: pointer;
+}
+.redC{
+    color:#ff0000;
+}
+
+.addZ{
+    width: 430px;
+    height: 310px;
+    border: 5px #7a7a7a solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -155px;
+    margin-top: -215px;
+    background: #fff;
+    display: none;
+}
+.addZTitle{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    background: #f8f8f8;
+}
+.addZTitleT{
+    margin-left: 20px;
+    font-weight: 800;
+}
+.addC{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+}
+.centerBox{
+    text-align: center;
+}
+.subAccountRadio1{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.subAccountRadio2{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.subAccountRadioT{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#provinceLis{
+    max-height: 300px;
+    overflow: scroll;
+}
+#cityLis{
+    max-height: 300px;
+    overflow: scroll;
+}
+#area{
+    max-height: 300px;
+    overflow: scroll;
+}
+.addL{
+    width: 133px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    background: #3c8bf5;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.addR{
+    width: 133px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    background: #3c8bf5;
+    color: #fff;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.offerDiv{
+    width:434px;
+    height:450px;
+    position:fixed;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -280px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+    z-index: 101;
+}
+.offerTitle{
+    height: 45px;
+    background: #f8f8f8;
+    line-height: 45px;
+}
+.offerTitleT{
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.offerUl li{
+    height: 60px;
+    line-height:60px;
+}
+.offerInput{
+    width: 304px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.offerInputT{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}

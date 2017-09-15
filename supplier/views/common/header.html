@@ -1,0 +1,23 @@
+<!-- 公用头部 -->
+<div class="row headerRow">
+    <div class="header">
+        <div class="logo iblock"></div>
+        <ul class="iblock clearfix" active="{{active.header.nav}}" id="header">
+            {{if active.header.isLogin}}
+            <li class="" onclick="location.href='/commodityManger'">首页</li>
+            <li onclick="location.href='/personCenter'">个人中心</li>
+            <li onclick="location.href='/supplierNews/newsList'"><i class="carNumber"></i>消息</li>
+            <li onclick="location.href='/login'">退出</li>
+            {{else}}
+            <li>登陆</li>
+            <li>注册</li>
+            {{/if}}
+        </ul>
+       <!-- <div class="demand iblock">需求发布</div>-->
+    </div>
+</div>
+<script>
+    var oHeader = document.getElementById("header");
+    var num = oHeader.getAttribute("active");
+    oHeader.getElementsByTagName("li")[num - 1].setAttribute("class", 'active');
+</script>

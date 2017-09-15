@@ -1,0 +1,73 @@
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>子帐号管理</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/personCenter/childAccountManagement.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include '../common/header'}}
+<div class="contentDiv row">
+    {{include '../common/personLeft'}}
+    <div class="rightDiv">
+        <div class="rightTopDiv">公告：侧一个系统公考</div>
+        <div class="subMangerTop">
+            <input id="addChildBtn" class="subMangerTopC" type="button" value="添加子账户">
+        </div>
+        <div class="subMangerTitle">
+                <div class="wth20">登录账号</div>
+                <div class="wth20">姓名</div>
+                <div class="wth20">角色</div>
+                <div class="wth20">省份</div>
+                <div class="wth20">状态</div>
+                <div class="wth20">操作</div>
+            </div>
+        <ul class="subMangerUl">
+            </ul>
+         <div id="layPageBox"></div>    
+    </div>
+</div>
+<div class="offerDiv hide">
+    <form id="addFm">
+        <div class="offerTitle">
+            <span class="offerTitleT">添加子账户</span>
+        </div>
+        <ul class="offerUl">
+            <li>
+                <div class="offerInputT">姓名:</div>
+                <input class="offerInput" type="text" id="fname" name="fname">
+            </li>
+            <li>
+                <div class="offerInputT">密码:</div>
+                <input class="offerInput" type="password" id="fpassword" name="fpassword">
+            </li>
+            <li>
+                <div class="offerInputT">确认密码:</div>
+                <input class="offerInput" type="password" id="repassword" name="repassword">
+            </li>
+            <li>
+                <div class="offerInputT">角色:</div>
+                <select id="fdepartmentId" name="fdepartmentId" class="offerInput">
+                    <option value="1" class="option">技术</option>
+                    <option value="2" class="option">业务</option>
+                </select>
+            </li>
+            <li>
+                <div class="offerInputT">省份:</div>
+                <select id="province" name="province" class="offerInput">
+                </select>
+            </li>
+        <input class="addL" type="button" value="确定">
+        <input class="addR" type="button" value="取消">
+    </form>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/personCenter/childAccountManagement.js"></script>
+</html>

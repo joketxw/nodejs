@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>商品管理</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/common/animate.min.css">
+</head>
+<body>
+{{include './common/header'}}
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+<div class="contentDiv row">
+    <div class="leftDiv">
+        <div class="inquiryCar">询价车</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryList'">询价列表</div>
+        <div class="inquiryCarT active" onclick="location.href='inquiryInfor'">议价信息</div>
+        <div class="inquiryCar">商品管理</div>
+        <div class="inquiryCarT" onclick="location.href='commodityManger'">商品入库</div>
+        <div class="inquiryCarT"  onclick="location.href='myGoods'">我的商品</div>
+        <div class="inquiryCar">订单管理</div>
+        <div class="inquiryCarT" onclick="location.href='orderCenter'">订单中心</div>
+        <div class="inquiryCarT" onclick="location.href='monthlyOrder'">月结订单</div>
+    </div>
+    <div class="rightDiv">
+        <div class="rightTopDiv">公告：侧一个系统公考</div>
+        <div class="rightNextDiv">
+            <div class="searchDiv2">
+                <div class="searchDiv2Left">
+                    <div>
+                        <span class="t1">询价号 :</span>
+                        <input class="InputText1" type="text">
+                        <span class="t2">商品 :</span>
+                        <input class="InputText2" type="text">
+                    </div>
+                    <div class="rox">
+                        <span class="t3">询价时间 :</span>
+                        <input class="InputText3" type="text" readonly="readonly" id="enquiryTimeString">
+                        <span class="t4">至</span>
+                        <input class="InputText4" type="text" readonly="readonly" id="expirationTimeString">
+                    </div>
+                </div>
+                <input type="button" class="searchButton" value="搜索">
+            </div>
+            <div class="titleDiv borderTop">
+                <span class="title1">商品名称</span>
+                <span class="title2">数量</span>
+                <span class="title4">报价价格</span>
+                <span class="title4">议价价格</span>
+                <span class="title5">二次报价</span>
+
+                <span class="title4">操作</span>
+            </div>
+            <ul class="classList clearfix">
+                <div class="doing">加载中...</div>
+                <!--<li>
+                    <div class="blueDiv">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲 </div>
+                        <div class="text2">
+                            尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">
+                        <div>[同意议价]</div>
+                        <div>[拒绝议价]</div>
+                        <div>[降低报价]</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blueDiv">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲 </div>
+                        <div class="text2">
+                            尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">
+                        <div>[同意议价]</div>
+                        <div>[拒绝议价]</div>
+                        <div>[降低报价]</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blueDiv">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲</div>
+                        <div class="text2">
+                            尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">
+                        <div>[同意议价]</div>
+                        <div>[拒绝议价]</div>
+                        <div>[降低报价]</div>
+                    </div>
+                </li>-->
+            </ul>
+            <div id="layPageBox"></div>
+        </div>
+    </div>
+</div>
+<!--//降低报价-->
+<div class="reduceOffer hide">
+    <div class="offerTitle">
+        <span class="offerTitleT">降低报价</span>
+    </div>
+    <div class="reduceOfferText">请输入您的二次报价金额，您的第一次报价为单价<span class="redT">￥200.00。</span></div>
+    <input class="reduceOfferInput" type="text">
+    <div>
+    <input class="offerButton1 Agree3" type="button" value="确认">
+    <input class="offerButton2 cancel3" type="button" value="取消">
+    </div>
+</div>
+
+<!--拒绝议价-->
+<div class="refuseOffer hide">
+    <div class="offerTitle">
+        <span class="offerTitleT">降低报价</span>
+    </div>
+    <div class="reduceOfferText">您是否拒绝<span class="blueT refuseOffer1" id="">"美特斯邦威美特斯八未"</span>询价单的议价，如果拒绝，您的报价将保持原来的单价<span class="redT refuseOffer2">￥200.00。</span></div>
+    <div>
+        <input class="offerButton1 Agree2" type="button" value="确认">
+        <input class="offerButton2 cancel2" type="button" value="取消">
+    </div>
+</div>
+<!--同意议价-->
+<div class="agreeOffer hide">
+    <div class="offerTitle">
+        <span class="offerTitleT">同意报价</span>
+    </div>
+    <div class="reduceOfferText">您是否同意<span class="blueT" id="agreeOffer1">--</span>询价单的议价，如果同意，您的报价将由原来的单价￥<span class="redT" id="agreeOffer2">--</span>改为单价￥<span class="redT" id="agreeOffer3">--</span>。</div>
+    <div>
+        <input class="offerButton1 Agree1" type="button" value="确认">
+        <input class="offerButton2 cancel1" type="button" value="取消">
+    </div>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/inquiryInfor.js"></script>
+</html>

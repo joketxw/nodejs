@@ -1,0 +1,35 @@
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>资金记录</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/personCenter/capitalRecord.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include '../common/header'}}
+<div class="contentDiv row">
+    {{include '../common/personLeft'}}
+    <div class="rightDiv">
+		<div class="subMangerTitle">
+                <div class="wth20">操作人名称</div>
+                <div class="wth20">收入</div>
+                <div class="wth20">支出</div>
+                <div class="wth20">资金余额</div>
+                <div class="wth20">交易类别</div>
+                <div class="wth20">操作时间</div>
+            </div>
+        <ul class="subMangerUl">
+            </ul>
+         <div id="layPageBox"></div>    
+    </div>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/personCenter/capitalRecord.js"></script>
+</html>

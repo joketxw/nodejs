@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class=" switch-vers-default"  lang="en">
+<head>
+    <meta content="always" name="referrer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>商品管理</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include './common/header'}}
+<div class="contentDiv row">
+    <div class="leftDiv">
+        <div class="inquiryCar">询价车</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryList'">询价列表</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryInfor'">议价信息</div>
+        <div class="inquiryCar">商品管理</div>
+        <div class="inquiryCarT active" onclick="location.href='commodityManger'">商品入库</div>
+        <div class="inquiryCarT"  onclick="location.href='myGoods'">我的商品</div>
+        <div class="inquiryCar">订单管理</div>
+        <div class="inquiryCarT" onclick="location.href='orderCenter'">订单中心</div>
+        <div class="inquiryCarT" onclick="location.href='monthlyOrder'">月结订单</div>
+    </div>
+    <div class="rightDiv">
+        <div class="rightTopDiv">公告：侧一个系统公考</div>
+        <div class="rightNextDiv">
+            <div class="searchDiv">
+                <input class="searchInput1" type="text" placeholder="请输入产品品牌，型号，名称之类的搜索条件">
+                <input class="searchButton" type="button" value="搜索">
+            </div>
+            <div class="classification clearfix">
+                <div class="classificationT">商品分类:</div>
+                <div class="classificationBox">
+                <ul class="classificationul">
+                    {{each getCategorySup.retEntity.list as value i}}
+                    <li catId={{value.catId}}>{{value.catName}}</li>
+                    {{/each}}
+                </ul>
+                </div>
+                <div class="leftChoose">〈 </div>
+                <div class="rightChoose"> 〉</div>
+            </div>
+            <div class="titleDiv">
+                <span class="title1">商品名称</span>
+                <span class="title2">规格选择</span>
+                <span class="title3">操作</span>
+                <input id="GoodsByBrandsBtn" class="subMangerTopB" type="button" value="根据品牌录入商品">
+            </div>
+            <ul class="classList clearfix">
+                {{each searchGoods.retEntity.content as value i}}
+                <li id={{value.id}}>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src={{value.goodsImg}} class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">{{value.title}}</div>
+                        <div class="text2">{{value.brandName}}</div>
+                        <ul class="xinHao">
+                        </ul>
+                    </div>
+                    <ul class="classBox clearfix">
+
+                    </ul>
+                    <div class="rightT">[录入我的商品]</div>
+                </li>
+                {{/each}}
+            </ul>
+            <input type="hidden" id="pages" value="{{searchGoods.retEntity.totalCount}}">
+            <div id="layPageBox"></div>
+        </div>
+    </div>
+</div>
+<div class="offerDiv hide">
+    <form id="addFm">
+        <div class="offerTitle">
+            <span class="offerTitleT">根据品牌录入商品</span>
+        </div>
+        <ul class="offerUl">
+            <li>
+                <div class="offerInputT">请选择品牌:</div>
+                <br/>
+                <div id="brandsDiv">
+            	</div>
+            </li>
+            </ul>
+        <input class="addL" type="button" value="确定">
+        <input class="addR" type="button" value="取消">
+    </form>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/commodityManger.js"></script>
+</html>

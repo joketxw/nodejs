@@ -1,0 +1,44 @@
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>安全设置</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/personCenter/securitySetting.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include '../common/header'}}
+<div class="contentDiv row">
+    {{include '../common/personLeft'}}
+    <div class="rightDiv">
+		<form id="resetPassword">
+        <div class="nextBak">
+            <ul class="offerUl">
+                <li>
+                    <div class="offerInputT"><span class="redC">* </span>原账号密码：</div>
+                    <input class="offerInput" type="password" placeholder="请输入您现在的账号密码" name="oldPassWord" id="oldPassWord">
+                </li>
+                <li>
+                    <div class="offerInputT"><span class="redC">* </span>新账号密码：</div>
+                    <input class="offerInput" type="password" placeholder="请输入您新的账号密码" name="newPassWord" id="newPassWord">
+                </li>
+                <li>
+                    <div class="offerInputT"><span class="redC">* </span>确认密码：</div>
+                    <input class="offerInput" type="password" placeholder="请再次输入您新的账号密码" name="rePassWord" id="rePassWord">
+                </li>
+            </ul>
+            <input class="offerButton1else" type="button" value="重置密码" id="resetPasswordBtn">
+            
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/personCenter/securitySetting.js"></script>
+</html>

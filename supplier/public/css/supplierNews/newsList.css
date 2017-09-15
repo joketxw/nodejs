@@ -1,0 +1,782 @@
+.content{
+    margin-top: 20px!important;
+}
+.choosePayType{
+    width: 180px!important;
+    color: #1170a7;
+}
+.searchKeyT{
+    color: #1170a7;
+    line-height: 50px;
+}
+.hui{
+    color: #666!important;
+}
+.chooseDai{
+    color: #1170a7;
+}
+.zt{
+    height: 39px;
+    width: 85px;
+    overflow: hidden;
+    line-height:39px;
+}
+.infoT2{
+    margin-top: 15px;
+}
+.pin{
+    width: 60px;
+    height: 21px;
+    overflow: hidden;
+}
+.gui{
+    width: 240px;
+    margin-left: -10px;
+}
+.gui li{
+    float: left;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    background: #eee;
+    margin: 10px 0 0 10px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    color: #666;
+    overflow: hidden;
+
+}
+.pad{
+    width: 330px!important;
+    padding-left: 34px;
+}
+.productSearch1:active{
+    background: #f17272!important;
+    line-height: 45px!important;
+}
+.searchKey li{
+    height: 44px;
+    width: 370px;
+    line-height: 44px;
+    background: #f9f9f9;
+    padding-left: 5%;
+    width: 95%;
+    cursor: pointer;
+}
+.searchKey li:hover{
+    background: #ea5932;
+    color: #fff;
+}
+.searchKey{
+    position: absolute;
+    margin-top: 44px;
+    z-index: 101;
+    position: relative;
+}
+.info{
+    width: 1028px;
+    padding-left: 10px;
+    margin-left: -4px;
+    border:solid 1px #eee;
+    min-height: 940px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.inquiryCarHeader{
+    width: 920px;
+    height: 50px;
+    line-height: 52px;
+    color: #666;
+    margin: 0 auto;
+}
+.inquiryCarHeader input[type=checkbox]{
+    margin: 0 10px;
+    top:2px;
+}
+.inquiryCarLis{
+    width: 970px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+.guiGe{
+    width: 240px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+.guiGe li{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    float: left;
+    margin: 10px 0 0 20px;
+    padding: 0 10px 0 10px;
+    border-radius:5px;
+    color: #666;
+}
+.inquiryCarLis li{
+    border-bottom: 1px #eeeeee solid;
+    height: auto;
+    position: relative;
+}
+.inquiryCarLis li>div{
+    min-height: 120px;
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+.inquiryCarLis li input[type=checkbox]{
+    margin: 50px 30px 50px 35px;
+    float: left;
+}
+.inquiryCarLis li .goodsImg{
+    width: 86px;
+    height: 86px;
+    float: left;
+    margin-top: 17px;
+    border: 0;
+}
+.inquiryCarLis li .goodsName{
+    margin-top: 20px;
+}
+.inquiryCarLis li .goodsMsg{
+    margin-top: 10px;
+}
+.inquiryCarLis li .goodsNumberBox{
+    width: 136px;
+    height: 32px;
+    border: solid #e6dfdf 1px;
+    margin-top: 40px;
+}
+.inquiryCarLis li .goodsNumberBox button{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    font-family: "楷体";
+    color: #999;
+    background: #f3f3f3;
+    border: 0;
+}
+.inquiryCarLis li .goodsNumberBox button:active{
+    background: #eee;
+}
+.inquiryCarLis li .goodsNumberBox i:active{
+    line-height: 33px;
+}
+.inquiryCarLis li .goodsNumberBox .goodsNumber{
+    display: block;
+    float: left;
+    width: 70px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: 0;
+    background: #f9f9f9;
+    border-right: solid 1px #e6dfdf;
+    border-left: solid 1px #e6dfdf;
+    color: #666;
+}
+.inquiryCarLis li .delivery{
+    width: 78px;
+    height: 32px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    background: #f9f9f9;
+    border: solid 1px #e6dfdf;
+    color: #666;
+}
+.inquiryCarLis li .operation{
+    margin-top: 10px;
+}
+.inquiryCarLis li .operation em{
+    color: #006cff;
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.inquiryCarLis li:hover{
+    background: #e2e6ea;
+}
+.inquirySubBox{
+    width: 970px;
+    margin: auto;
+    text-align: right;
+}
+.inquirySub{
+    width: 150px;
+    height: 50px;
+    background: #e98300;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 60px 0px 40px 0;
+    position: relative;
+}
+.inquirySub:active{
+    top:1px;
+}
+.inquiryCarHeader .cleanCar{
+    color: #006cff;
+    cursor: pointer;
+}
+.spec{
+    margin-left: 10px;
+}
+.lookupTitle{
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lookupText{
+    display: inline-block;
+    vertical-align: middle;
+    border: solid #eeeeee 1px;
+    height: 28px;
+    width: 214px;
+}
+.lookupBtn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    background: #fafafa;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.lookupDiv{
+    margin-top: 10px;
+}
+.attributeDiv{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background: #f5f5f5;
+    line-height: 40px;
+}
+.commodityModelT{
+    width: 224px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.agentT{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    text-align: center;
+}
+.deliveryT{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.orderNumT{
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.unitPriceT{
+    text-align: center;
+    width: 115px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.availableNumberT{
+    text-align: center;
+    width: 65px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.deadlineDayT{
+    text-align: center;
+    width: 114px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.operationT{
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.nextDiv{
+    height: 43px;
+    background: #fff;
+    line-height: 43px;
+    position: relative;
+}
+.select{
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.selectDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+.printQuotation{
+    width: 84px;
+    height: 25px;
+    background:#fff;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+    margin-left: 15px;
+}
+.deleteInquiry{
+    width: 82px;
+    height: 25px;
+    background:#fff;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+    margin-left: 15px;
+}
+.previousPage{
+    width: 60px;
+    height: 25px;
+    background:#fff;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+    position: absolute;
+    right: 68px;
+    top: 8px;
+}
+.nextPage{
+    width: 60px;
+    height: 25px;
+    background:#fff;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+    position: absolute;
+    right: 2px;
+    top: 8px;
+}
+.infoDetails{
+    height: 46px;
+    background:#eaf8ff;
+    line-height: 46px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.infoDetailsDiv{
+    width: 200px;
+    line-height:46px;
+    height: 46px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.infoCheck{
+    top: 4px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.infoT1{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.infoTitle{
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+.infoContent{
+    width: 780px;
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    _height:150px;
+}
+.infoContent li{
+    font-size: 0;
+    cursor: pointer;
+    height: 37.5px;
+}
+.infoContent li>div{
+    border: solid #dceeff 1px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+.act{
+   /* border: solid #e98300 1px!important;*/
+    color: #e98300!important;
+}
+
+.agentName{
+    height: 37.5px;
+    width: 180px;
+    position: relative;
+    line-height: 37.5px;
+}
+
+.delivery{
+    height: 37.5px;
+    width: 70px;
+    line-height: 37.5px;
+}
+.orderNum{
+    height: 37.5px;
+    width: 67px;
+    line-height: 37.5px;
+}
+.unitPrice{
+    height: 37.5px;
+    width: 112px;
+    line-height: 37.5px;
+}
+.availableNumber{
+    height: 37.5px;
+    width: 67px;
+    line-height: 37.5px;
+}
+.deadlineDay{
+    height: 37.5px;
+    width: 112px;
+    line-height: 37.5px;
+}
+.operation{
+    height: 37.5px;
+    width: 70px;
+    line-height: 37.5px;
+    color: #1170a7;
+}
+.operation1{
+    height: 37.5px;
+    width: 155px;
+    line-height: 37.5px;
+    color: #1170a7;
+}
+.settlement{
+    height: 38px;
+    line-height:38px;
+}
+.settlement>div{
+    border: solid #dceeff 1px;
+}
+.settlementL{
+    width: 240px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.settlementR{
+    width: 780px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.money{
+    width: 190px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #1170a7;
+}
+.remark{
+    display: none;
+}
+.remarks{
+    width: 450px;
+    float: left;
+    text-align: center;
+    height: 38px;
+    overflow: hidden;
+}
+.bargaining{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #1170a7;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 5px;
+    position: relative;
+}
+.bargaining:active{
+    background: #d5eeec;
+    top: 5px;
+}
+.disP1{
+    display: inline-block;
+    vertical-align: middle;
+}
+.disP2{
+    display: none;
+}
+.agentR{
+    width: 54px;
+    height: 23px;
+    line-height: 23px;
+    border: solid 1px #e98300!important;
+    cursor: pointer;
+    color: #e98300;
+    display: none;
+    vertical-align: middle;
+}
+.agentTextL{
+    width:23px;
+    height: 23px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    line-height:23px;
+    color: #e98300;
+    border: #e98300 1px solid;
+    display: none;
+    vertical-align: middle;
+}
+.agentText{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 70px;
+    height: 37.5px;
+    border: 0!important;
+}
+/*
+//删除询价弹框*/
+.refuseOffer{
+    width:440px;
+    height:270px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.offerTitle{
+    height: 45px;
+    background: #f8f8f8;
+    line-height: 45px;
+}
+.offerTitleT{
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.reduceOfferText{
+    width: 325px;
+    margin: 30px auto;
+}
+.offerButton1{
+    width: 130px;
+    height: 50px;
+    background: #3c8bf5;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 0;
+}
+.offerButton2{
+    width: 130px;
+    height: 50px;
+    background: #3c8bf5;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0;
+}
+.discusUl li{
+   width:980px;
+   height:65px;
+   line-height:65px;
+   margin:10px auto;
+}
+.discusLiT{
+    ext-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+     width: 500px;
+     float: left;
+     margin-left: 20px;
+}
+.col-b{
+     color:#006cff;
+}
+.timeT{
+    margin-left: 20px;
+}
+.del{
+    float: right;
+    color: #3c8bf5;
+    margin-right: 20px;
+}
+
+
+.payDiv{
+    height: 68px;
+    line-height: 68px;
+    border: #eeeeee 1px solid;
+    margin: 20px 0;
+    position: relative;
+}
+
+.payButton{
+    width: 140px;
+    height: 100%;
+    border: 0;
+    background:#e98300;
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
+}
+.payNum{
+    width: auto;
+    float: right;
+    color:#e30000;
+    font-size: 24px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.payT{
+    font-size: 12px;
+    color: #666666;
+    float: right;
+}
+.payNum1{
+    color:#e30000;
+}
+
+
+/*议价窗口*/
+
+.yiJia{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    height: 40px;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+
+
+
+.addZ{
+    width: 430px;
+    height: 310px;
+    border: 5px #7a7a7a solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -155px;
+    margin-top: -215px;
+    background: #fff;
+    display: none;
+}
+.addZTitle{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    background: #f8f8f8;
+}
+.addZTitleT{
+    margin-left: 20px;
+    font-weight: 800;
+}
+.addC{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#provinceLis{
+    max-height: 300px;
+    overflow: scroll;
+}
+#cityLis{
+    max-height: 300px;
+    overflow: scroll;
+}
+#area{
+    max-height: 300px;
+    overflow: scroll;
+}
+.addL{
+    width: 133px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    background: #e98300;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.addR{
+    width: 133px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    background: #e98300;
+    color: #fff;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+
+
+/*议价列表*/
+#layPageBox{
+    width: 900px!important;
+}
+.nextDiv1{
+    border: 1px #e6e6e6 solid;
+    padding: 50px;
+    width: 880px;
+    margin: 0 auto;
+    display: none;
+}
+.contentT{
+
+}
+.knowReleaseLis li{
+    line-height: 65px;
+    height: 65px;
+    margin-top: 20px;
+    background: #f5fbfd;
+}
+#knowReleaseLis{
+    position: relative;
+}
+.readMsg{
+	background-color:#CCEEFF;
+}
+.unreadMsg{
+	background-color:#FFFFBB;
+}

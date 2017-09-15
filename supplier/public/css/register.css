@@ -1,0 +1,150 @@
+body{
+    background: #f4f5f9;
+}
+
+.active{
+    background: #aadc6e!important;
+    color: #ffffff !important;;
+}
+.hide{
+    display: none;
+}
+.topDiv{
+    height: 70px;
+    background: #3c8bf5;
+}
+.centerDiv{
+    width: 1200px;
+    height: 800px;
+    background:#fff;
+    margin: 10px auto;
+    border-top: solid 0.1px #fff;
+}
+.centerBox{
+    width:620px;
+    margin: 86px auto;
+    height: 52px;
+    line-height:52px;
+}
+.d1{
+
+}
+.d2{
+    margin-left: 5px;
+}
+.d3{
+    margin-left: 5px;
+}
+.setUserBox{
+    height: 266px;
+    width: 385px;
+    margin: 0 auto;
+}
+.setUserL{
+    width: 77px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.setUserR{
+    width: 300px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.setUserL div{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+}
+.mg{
+    margin-top: 20px;
+}
+.mg1{
+    margin-top: 22px;
+}
+.setUserR>input{
+    height: 30px;
+    width: 290px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 10px;
+    border: solid #dee3ed 1px;
+}
+.textDiv{
+    margin-top: 10px;
+}
+.agreementCheck{
+    vertical-align: middle;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+.agreement{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+.registerBtnBox{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.registerBtn{
+    width: 100%;
+    height: 32px;
+    background: #3c8bf5;
+    border: 0;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.centerBox>div{
+    text-align: center;
+    font-size: 16px;
+    color: #aaaaaa;
+    background: #eeeeee;
+    width: 300px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 52px;
+    border-radius: 5px;
+    position: relative;
+}
+.dLeft{
+    font-size: 24px;
+    position: absolute;
+    left: 15px;
+}
+.remarks{
+    margin-top: 25px;
+    height: 100px;
+    padding: 10px;
+    width: 280px;
+}
+.examine{
+    width: 358px;
+    height: 66px;
+    margin: 0 auto;
+}
+.gou{
+    width: 53px;
+    height: 53px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.examineBox{
+    display: inline-block;
+    vertical-align: middle;
+    height: 66px;
+    width: 280px;
+}
+.examineBox div{
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    color: #666666;
+}

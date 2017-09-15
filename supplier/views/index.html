@@ -1,0 +1,72 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>主页</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="contentDiv row">
+        <div class="leftDiv">
+            <div class="inquiryCar">询价车</div>
+            <div class="inquiryCarT">询价列表</div>
+            <div class="inquiryCarT">议价信息</div>
+            <div class="inquiryCar">询价车</div>
+            <div class="inquiryCarT">询价列表</div>
+            <div class="inquiryCarT">议价信息</div>
+        </div>
+        <div class="rightDiv">
+            <div class="rightTopDiv">公告：侧一个系统公考</div>
+            <div class="rightNextDiv">
+                <div class="classification clearfix">
+                    <div class="classificationT">商品分类:</div>
+                    <ul class="classificationul">
+                        <li>全部</li>
+                        <li>力传感器</li>
+                        <li>力传感器</li>
+                        <li>力传感器</li>
+                    </ul>
+                    <div class="leftChoose">〈 </div>
+                    <div class="rightChoose"> 〉</div>
+                </div>
+                <div class="titleDiv">
+                    <span class="title1">商品名称</span>
+                    <span class="title2">规格选择</span>
+                    <span class="title3">操作</span>
+                </div>
+                <ul class="classList clearfix">
+
+                    <li id={{searchGoods.retEntity.content[0].id}}>
+                        <div class="picBox">
+                            <div class="topBox">
+                                <div class="topLeft"></div>
+                                <div class="topRight"></div>
+                            </div>
+                            <img src={{searchGoods.retEntity.content[0].goodsImg}} class="lisPic">
+                        </div>
+                        <div class="textBox">
+                            <div class="text1">{{searchGoods.retEntity.content[0].title}}</div>
+                            <div class="text2">{{searchGoods.retEntity.content[0].brandName}}</div>
+                        </div>
+                        <ul class="classBox clearfix">
+                            {{each searchGoods.retEntity.content[0].specTables as val i}}
+                            <li>{{val.spec}}</li>
+                            {{/each}}
+                        </ul>
+                        <div class="rightT">[录入我的商品]</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/index.js"></script>
+</html>-->

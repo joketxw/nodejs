@@ -1,0 +1,17 @@
+.userInfo{
+	font-size:30px;
+	margin-left:100px;
+	margin-top:50px;
+}
+.userInfo div{
+	margin-left:10px;
+    display: inline-block;
+    vertical-align: middle;
+    color:#666
+  
+}
+
+.bindCode{
+	color:blue;
+	margin-left:42px;
+}

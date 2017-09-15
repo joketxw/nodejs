@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>注册</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+<form method="clearfix" action="" id="registerForm">
+    <div class="topDiv"></div>
+    <div class="centerDiv">
+        <div class="centerBox">
+            <div class="d1 active">
+                <span class="dLeft">1.</span>
+                填写基本信息
+            </div>
+            <div class="d2">
+                <span class="dLeft">2.</span>
+                注册成功
+            </div>
+        </div>
+        <div class="setUserBox" id="setUserBox1">
+            <div class="setUserL">
+                <div>公司邮箱：</div>
+                <div class="mg1">设置密码：</div>
+                <div class="mg1">确认密码：</div>
+                <div class="mg1">联系电话：</div>
+                <div class="mg1">联系人姓名：</div>
+                <div class="mg1">备注：</div>
+            </div>
+            <div class="setUserR">
+                <input class="emailAccount" type="text" placeholder="请输入公司邮箱" name="femailAccount" id="femailAccount">
+                <input class="mg" type="password" placeholder=" 请输入密码" name="fpassword" id="fpassword">
+                <input class="mg" type="password" placeholder=" 请再次输入密码" name="verifyPassWord">
+                <input class="mg fphone" type="text" placeholder="请输入联系电话" name="fphone" id="fphone">
+                <input class="mg" type="text" placeholder=" 请输入联系人姓名" name="fname">
+                <textarea class="remarks"  name="remarks" placeholder="请至少填写一项贵公司主营产品，如多个请用“，” 分隔"></textarea>
+                <div class="textDiv">
+                    <input type="checkbox" class="agreementCheck" id="agreementCheck">
+                    <div class="agreement">我同意遵守</div>
+                </div>
+                <div class="registerBtnBox">
+                 <input type="button" class="registerBtn" value="下一步" id="registerBtn">
+                </div>
+            </div>
+        </div>
+        <div class="examine hide" id="setUserBox2">
+            <img src="/images/lugou.png" class="gou">
+            <div class="examineBox">
+                <div>恭喜您，注册成功，账户审核中！ </div>
+                <div>工作人员7日内将与您取得联系，请保持电话畅通。</div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/register.js"></script>
+</html>

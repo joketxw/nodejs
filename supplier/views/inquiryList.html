@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>商品管理</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/inquiryList.css">
+    <link rel="stylesheet" href="/css/common/animate.min.css">
+
+</head>
+<body>
+{{include './common/header'}}
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+<div class="contentDiv row">
+    <div class="leftDiv">
+        <div class="inquiryCar">询价车</div>
+        <div class="inquiryCarT active1" onclick="location.href='inquiryList'">询价列表</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryInfor'">议价信息</div>
+        <div class="inquiryCar">商品管理</div>
+        <div class="inquiryCarT" onclick="location.href='commodityManger'">商品入库</div>
+        <div class="inquiryCarT"  onclick="location.href='myGoods'">我的商品</div>
+        <div class="inquiryCar">订单管理</div>
+        <div class="inquiryCarT" onclick="location.href='orderCenter'">订单中心</div>
+        <div class="inquiryCarT" onclick="location.href='monthlyOrder'">月结订单</div>
+    </div>
+    <div class="rightDiv">
+        <div class="rightTopDiv">公告：侧一个系统公考</div>
+        <div class="rightNextDiv">
+            <div class="searchDiv2">
+                <div class="searchDiv2Left">
+                 <div>
+                 <span class="t1">询价号 :</span>
+                 <input class="InputText1" type="text">
+                 <span class="t2">商品 :</span>
+                 <input class="InputText2" type="text">
+                 </div>
+                 <div class="rox">
+                 <span class="t3">询价时间 :</span>
+                 <input class="InputText3" type="text" readonly="readonly" id="enquiryTimeString">
+                 <span class="t4">至</span>
+                 <input class="InputText4" type="text" readonly="readonly" id="expirationTimeString">
+                 </div>
+                </div>
+                <input type="button" class="searchButton" value="搜索">
+            </div>
+            <div class="classification clearfix">
+                <div class="classificationT">询价状态:</div>
+                <ul class="classificationul">
+                    <li id="1">全部询价</li>
+                    <li id="2">未报价</li>
+                    <li id="3">已报价</li>
+                    <li id="4">历史询价</li>
+                </ul>
+                <!--<div class="leftChoose">〈 </div>
+                <div class="rightChoose"> 〉</div>-->
+            </div>
+            <div class="titleDiv">
+                <span class="title1">商品名称</span>
+                <span class="title2">期望交货周期(周)</span>
+                <span class="title4">数量</span>
+                <span class="title4">询价状态</span>
+                <span class="title5">操作</span>
+            </div>
+            <ul class="classList clearfix">
+                <!-- 
+                 <li>
+                    <div class="blueDiv">
+                        <input type="checkbox" name="" class="LisCheck">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲 </div>
+                        <div class="text2">
+                           尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">[报价]</div>
+                </li>
+                <li>
+                    <div class="blueDiv">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲 </div>
+                        <div class="text2">
+                            尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">[报价]</div>
+                </li>
+                <li>
+                    <div class="blueDiv">
+                        <span>询价号：232323232323</span>
+                        <span>询价时间：2016-01-03</span>
+                        <span>过期时间：2016-01-03</span>
+                    </div>
+                    <div class="picBox">
+                        <div class="topBox">
+                            <div class="topLeft"></div>
+                            <div class="topRight"></div>
+                        </div>
+                        <img src="" class="lisPic">
+                    </div>
+                    <div class="textBox">
+                        <div class="text1">我是非可大魔王我无敌我骄傲 </div>
+                        <div class="text2">
+                            尚品<span class="attributeRight">量程:>100t</span>
+                        </div>
+                    </div>
+                    <div class="textBox1">7</div>
+                    <div class="textBox2">200</div>
+                    <div class="textBox2">未报价</div>
+                    <div class="rightT rightTmg">[报价]</div>
+                </li>
+                 -->
+            </ul>
+            <div id="layPageBox"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="lookOffer hide">
+    <div class="offerTitle">
+        <span class="offerTitleT">查看报价</span>
+    </div>
+    <ul class="lookOfferT">
+        <li>
+            <div class="lookOfferL">货期:<span class="targetDelivery"></span></div>
+            <div class="lookOfferR">截止日期:<span class="expirationTimeString"></span></div>
+        </li>
+        <li>
+            <div class="lookOfferL">起定量:<span class="quota"></span></div>
+            <div class="lookOfferR">单价:<span class="offer"></span></div>
+        </li>
+        <li>
+            <div class="bei">备注:<span class="remark"></span></div>
+        </li>
+    </ul>
+    <input type="button" class="lookOfferButton" value="确定">
+</div>
+<div class="offerDiv hide">
+    <form id="offer">
+        <input class="hide" type="text"  name="enquiryCode" id="enquiryId">
+        <div class="offerTitle">
+            <span class="offerTitleT">报价</span>
+        </div>
+        <ul class="offerUl">
+            <!--<li>
+                <div class="offerInputT">询价编号:</div>
+                <input class="offerInput" type="text" id="enquiryCode" name="enquiryCode">
+            </li>-->
+            <li>
+                <div class="offerInputT">货期:</div>
+                <input class="offerInput" type="text" id="deliveryTime" name="deliveryTime">
+            </li>
+            <li>
+                <div class="offerInputT">起定量:</div>
+                <input class="offerInput" type="text" id="quota" name="quota">
+            </li>
+            <li>
+                <div class="offerInputT">单价:</div>
+                <input class="offerInput" type="text" id="offer1" name="offer">
+            </li>
+            <li>
+                <div class="offerInputT">截止日期:</div>
+                <input class="offerInput" type="text" id="quotationAsString" name="quotationAsString" readonly="readonly">
+            </li>
+            <li>
+                <div class="offerInputT">支付方式:</div>
+                <select name="moneyStatus" class="offerInput">
+                    <option value="1" class="option">全额支付</option>
+                    <option value="2" class="option">30%预付款</option>
+                    <!--<option value="3" class="option">Opel</option>-->
+                    <option value="4" class="option">100%款到发货</option>
+                </select>
+               <!-- <input class="offerInput" type="" id="moneyStatus" name="moneyStatus" readonly="readonly">-->
+            </li>
+        </ul>
+        <div class="">
+            <div class="offerInputT2">备注信息:</div>
+        <textarea class="offerInput2" type="text" id="remark" name="remark"></textarea>
+        </div>
+        <input class="offerButton1" type="button" value="提交">
+        <input class="offerButton2" type="button" value="取消">
+    </form>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/inquiryList.js"></script>
+</html>

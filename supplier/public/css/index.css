@@ -1,0 +1,169 @@
+body{
+    background: #f4f5f9;
+}
+.contentDiv{
+    height: 1200px;
+}
+.leftDiv{
+    float: left;
+    width: 200px;
+    height: 800px;
+    text-align: center;
+    background: #fff;
+}
+.rightDiv{
+    float: right;
+    width: 990px;
+    height: 800px;
+}
+.inquiryCar{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.inquiryCarT{
+    font-size: 14px;
+    margin-top: 18px;
+}
+.rightTopDiv{
+    height: 30px;
+    width: 970px;
+    background: #fff;
+    line-height:30px;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.rightNextDiv{
+    height: 875px;
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+}
+.classification{
+    height: 32px;
+    line-height:32px;
+    border-bottom: solid 1px #dad7d6;
+}
+.classificationT{
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    float: left;
+    font-size: 13px;
+}
+.classificationul{
+    float: left;
+    height: 32px;
+    width: 800px;
+
+}
+.classificationul>li{
+    font-size: 12px;
+    text-align: center;
+    width: 115px;
+    float: left;
+    margin-left: 10px;
+    border-radius:2px;
+    background: #eeeeee;
+    color: #666666;
+    cursor: pointer;
+}
+.leftChoose{
+    width: 15px;
+    height: 32px;
+    line-height: 32px;
+    background: #88bafd;
+    float: left;
+    color: #eff6ff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.rightChoose{
+    width: 15px;
+    height: 32px;
+    line-height: 32px;
+    background: #88bafd;
+    float: left;
+    text-align: center;
+    color: #eff6ff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.classList>li{
+    width: 950px;
+    border: solid 1px #dad7d6;
+    margin: 10px auto;
+}
+.titleDiv{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+.title1{
+    margin-left: 150px;
+}
+.title2{
+    margin-left: 150px;
+}
+.title3{
+    margin-left: 150px;
+}
+.picBox{
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 0 15px 15px;
+}
+.topBox{
+    height: 2px;
+    width: 100%;
+}
+.topLeft{
+    width: 51px;
+    float: left;
+    background: #e98300;
+    height: 2px;
+}
+.topRight{
+    width: 33px;
+    height: 2px;
+    width: 40%;
+    float: right;
+    background: #4f4f4f;
+}
+.textBox{
+    width: 145px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 45px;
+}
+.classBox{
+    width: 205px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+.classBox li{
+    width:90px;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px #3c8bf5;
+    float: left;
+    margin: 10px 0 0 10px;
+    text-align: center;
+    color: #3c8bf5;
+}
+.text2{
+    margin: 25px 0 0px 0;
+}
+.rightT{
+    color: #3c8bf5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 230px;
+}
+.lisPic{
+    height: 83px;
+    width: 85px;
+}

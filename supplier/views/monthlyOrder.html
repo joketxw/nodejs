@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>商品管理</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/monthlyOrder.css">
+    <link rel="stylesheet" href="/css/common/animate.min.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include './common/header'}}
+<div class="contentDiv row">
+    <div class="leftDiv">
+        <div class="inquiryCar">询价车</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryList'">询价列表</div>
+        <div class="inquiryCarT" onclick="location.href='inquiryInfor'">议价信息</div>
+        <div class="inquiryCar">商品管理</div>
+        <div class="inquiryCarT" onclick="location.href='commodityManger'">商品入库</div>
+        <div class="inquiryCarT"  onclick="location.href='myGoods'">我的商品</div>
+        <div class="inquiryCar">订单管理</div>
+        <div class="inquiryCarT" onclick="location.href='orderCenter'">订单中心</div>
+        <div class="inquiryCarT active" onclick="location.href='monthlyOrder'">月结订单</div>
+    </div>
+    <div class="rightDiv">
+        <div class="rightTopDiv">公告：侧一个系统公考</div>
+        <div class="rightNextDiv">
+            <div class="searchDiv">
+               <!-- <ul class="payTypeBox">
+                    &lt;!&ndash;<input type="button" class="upGoods active" value="上架商品">
+                    <input type="button" class="downGoods" value="下架商品">&ndash;&gt;
+                    &lt;!&ndash; <input type="button" class="upGoods active" value="上架商品">
+                     <input type="button" class="downGoods" value="下架商品">&ndash;&gt;
+                    <li class="" fmoneyStatus="1">全额支付</li>
+                    <li fmoneyStatus="2">%30预付款</li>
+                    &lt;!&ndash;  <li>月结支付</li>&ndash;&gt;
+                    <li fmoneyStatus="4">100%款到发货</li>
+                </ul>
+               -->
+                <input class="searchInput" type="text" placeholder="请输入询价单号">
+                <input class="searchButton" type="button" value="搜索">
+            </div>
+            <div class="classification clearfix">
+                <div class="classificationT">订单状态:</div>
+                <div class="classificationBox">
+                    <ul class="classificationul" categoryIdf="">
+                        <li class="col1">全部</li>
+                        <li class="col2">待发货<em></em></li>
+                        <li class="col3">已发货<em></em></li>
+                        <li class="col4">已收货未收款<em></em></li>
+                        <li class="col5">已完成<em></em></li>
+                    </ul>
+                </div>
+                <!--<div class="leftChoose">〈 </div>
+                <div class="rightChoose"> 〉</div>-->
+            </div>
+            <div class="titleDiv">
+                <span class="title1">商品名称</span>
+                <span class="title11">单价</span>
+                <span class="title12">数量</span>
+                <span class="title13">总价(元)</span>
+                <span class="title2">交易类型</span>
+                <span class="title3">交易状态</span>
+            </div>
+            <ul class="classList clearfix">
+                <div class="doing">加载中...</div>
+            </ul>
+            <div id="layPageBox"></div>
+        </div>
+    </div>
+</div>
+
+<div class="seeAddress hide">
+    <div class="offerTitle">
+        <span class="offerTitleT">查看收货地址</span>
+    </div>
+    <div class="addressBox">
+        <p class="kol1"></p>
+        <p class="kol2"></p>
+        <p class="kol3"></p>
+        <p class="kol4"></p>
+    </div>
+    <input type="button" class="lookOfferButton" value="确定">
+</div>
+
+
+<div class="offerDiv hide">
+    <form id="faDiv">
+        <input class="hide" type="text"  name="enquiryCode" id="enquiryId">
+        <div class="offerTitle">
+            <span class="offerTitleT">发货</span>
+        </div>
+        <ul class="offerUl">
+            <!--<li>
+                <div class="offerInputT">询价编号:</div>
+                <input class="offerInput" type="text" id="enquiryCode" name="enquiryCode">
+            </li>-->
+            <input type="hidden" value="" name="fid" id="fid">
+            <li>
+                <div class="offerInputT">物流单号:</div>
+                <input class="offerInput danHao" type="text" id="flogisticsOrder" name="flogisticsOrder">
+            </li>
+            <li>
+                <div class="offerInputT">物流公司:</div>
+                <input class="offerInput" type="text" id="flogisticsCompany" name="flogisticsCompany">
+            </li>
+        </ul>
+        <input class="offerButton1" type="button" value="提交" fid="0">
+        <input class="offerButton2" type="button" value="取消">
+    </form>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/monthlyOrder.js"></script>
+</html>

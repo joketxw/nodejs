@@ -1,0 +1,737 @@
+body{
+    background: #f4f5f9;
+}
+.payTypeBox{
+    margin: 20px 0 20px 0;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blueDiv span{
+    margin-left: 50px;
+}
+.unitPrice{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.number{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Price{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.payType{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.payTypeBox li{
+    float: left;
+    width:112px;
+    height:39px;
+    line-height: 39px;
+    border: solid 1px #dad7d6;
+    text-align: center;
+    background: #fff;
+    border-radius:5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.state{
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.faHuo{
+    width: 75px;
+    height: 30px;
+    border: 0;
+    background: #538fde ;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.faHuo:hover{
+    background: #78b5de;
+}
+#layPageBox{
+    text-align: center;
+}
+#xia{
+    color:#3c8bf5;
+}
+#sang{
+    color:#3c8bf5;
+}
+#yi{
+    color: #3c8bf5;
+}
+.classBox .activi{
+    box-shadow: 0px 0px 3px 3px #3c8bf5!important;
+}
+.header{
+
+}
+.classificationul .active{
+    color: #fff;
+    background:#3c8bf5;
+}
+
+.active-blue{
+    display: inline-block;
+    width:20px;
+    height:15px;
+    background: no-repeat center url(../images/youxia.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: -.5px;
+    right: -1px;
+}
+.contentDiv{
+    height: 1200px;
+    margin-top: 10px;
+}
+.leftDiv{
+    float: left;
+    width: 200px;
+    height: 1200px;
+    text-align: center;
+    background: #fff;
+}
+.rightDiv{
+    float: right;
+    width: 990px;
+    height: 800px;
+}
+.inquiryCar{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight:800;
+    cursor: pointer;
+}
+.inquiryCarT{
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.inquiryCarT~.active{
+    background: #3c8bf5;
+    color: #fff;
+}
+.rightTopDiv{
+    height: 30px;
+    width: 970px;
+    background: #fff;
+    line-height:30px;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.rightNextDiv{
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    position: relative;
+}
+.classification{
+    height: 32px;
+    line-height:32px;
+    border-bottom: solid 1px #dad7d6;
+}
+.classificationT{
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    float: left;
+    font-size: 13px;
+}
+.classificationBox{
+    overflow: hidden;
+    width: 750px;
+    float: left;
+    height: 32px;
+    position: relative;
+}
+.classificationul{
+    height: 32px;
+    width: auto;
+    position: relative;
+}
+
+.classificationul>li{
+    font-size: 12px;
+    text-align: center;
+    width: 115px;
+    float: left;
+    margin-left: 10px;
+    border-radius:2px;
+    background: #eeeeee;
+    color: #666666;
+    cursor: pointer;
+}
+.classificationul>li:hover{
+    background: #387ff5;
+    color: #fff;
+}
+
+.leftChoose{
+    width: 15px;
+    height: 32px;
+    line-height: 32px;
+    background: #3c8bf5;
+    float: left;
+    color: #eff6ff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.rightChoose{
+    width: 15px;
+    height: 32px;
+    line-height: 32px;
+    background: #3c8bf5;
+    float: left;
+    text-align: center;
+    color: #eff6ff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.classList>li{
+    width: 950px;
+    border: solid 1px #dad7d6;
+    margin: 10px auto;
+}
+.titleDiv{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+.title1{
+    margin-left: 150px;
+}
+.title11{
+    margin-left:170px;
+}
+.title12{
+    margin-left:30px;
+}
+.title13{
+    margin-left:50px;
+}
+.title2{
+    margin-left:35px;
+}
+.title3{
+    margin-left:35px;
+}
+.title4{
+    margin-left: 70px;
+}
+.title5{
+    margin-left: 50px;
+}
+
+
+.picBox{
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 0 15px 15px;
+}
+.topBox{
+    height: 2px;
+    width: 100%;
+}
+.topLeft{
+    width: 51px;
+    float: left;
+    background: #e98300;
+    height: 2px;
+}
+.topRight{
+    width: 33px;
+    height: 2px;
+    width: 40%;
+    float: right;
+    background: #4f4f4f;
+}
+.textBox{
+    width: 210px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 45px;
+}
+.textBox1{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 21px;
+    overflow: hidden;
+}
+.textBox2{
+    width: 115px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 21px;
+    overflow: hidden;
+}
+.classBox{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+.classBox li{
+    width:auto;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+    border: solid 1px #3c8bf5;
+    float: left;
+    margin: 10px 0 0 10px;
+    text-align: center;
+    color: #3c8bf5;
+    cursor: pointer;
+    position: relative;
+}
+.text1{
+    margin-top: 10px;
+}
+.text2{
+    margin: 10px 0 10px 0;
+    position: relative;
+}
+.rightT{
+    color: #3c8bf5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.lisPic{
+    height: 83px;
+    width: 83px;
+    border: solid #dad7d6 1px;
+}
+.searchDiv{
+    width: 990px;
+    background: #fff;
+    line-height:85px;
+}
+.upGoods{
+    width:112px;
+    height:39px;
+    border: solid 1px #dad7d6;
+    background: #fff;
+    border-radius:5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.downGoods{
+    width:112px;
+    height:39px;
+    border: solid 1px #dad7d6;
+    background: #fff;
+    border-radius:5px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.searchDiv .active{
+    border: solid 1px #3c8bf5;
+    color:#3c8bf5;
+}
+.searchInput{
+    height: 39px;
+    width: 410px;
+    margin-left: 350px;
+    padding-left: 20px;
+
+    /*display: inline-block;
+    vertical-align: middle;*/
+}
+.searchInput1{
+    height: 39px;
+    width: 410px;
+    margin-left: 220px;
+    padding-left: 20px;
+}
+.searchButton{
+    width: 100px;
+    height: 39px;
+    color: #fff;
+    background: #3c8bf5;
+    border-radius:5px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.mg{
+    margin-left: 200px;
+}
+.searchDiv2{
+    height: 120px;
+    background: #fff;
+    border-top: solid .1px #fff;
+}
+.searchDiv2Left{
+    height:100px ;
+    width: 810px;
+    border-right:1px solid #dad7d6;
+    margin-top:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.InputText1{
+    width: 300px;
+    height: 28px;
+    margin-left: 17px;
+}
+.InputText2{
+    width: 300px;
+    height: 28px;
+    margin-left: 17px;
+}
+.InputText3{
+    width: 130px;
+    height: 28px;
+    margin-left: 17px;
+}
+.InputText4{
+    width: 130px;
+    height: 28px;
+    margin-left: 17px;
+}
+.t1{
+    margin-left: 17px;
+    width: 68px;
+    display:block; float:left;
+    margin-top: 2px;
+}
+.t2{
+    margin-left: 17px;
+}
+.t3{
+    margin-left: 17px;
+}
+.t4{
+    margin-left: 17px;
+}
+.rox{
+    margin-top: 10px;
+}
+.searchDiv2Right{
+    width: 160px;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blueDiv{
+    background: #f5f9fc;
+    height: 32px;
+    line-height: 32px;
+}
+.attributeRight{
+    position: absolute;
+    right: 0;
+}
+.rightT>div{
+    color:#3c8bf5;
+}
+.borderTop{
+    border-top: solid 1px #dad7d6;
+}
+.offerDiv{
+    width: 434px;
+    height: 571px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -280px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.offerTitle{
+    height: 45px;
+    background: #f8f8f8;
+    line-height: 45px;
+}
+.offerTitleT{
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.offerUl li{
+    height: 60px;
+    line-height:60px;
+}
+.offerInput{
+    width: 304px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.offerInputT{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.offerInput2{
+    width: 304px;
+    height: 142px;
+    background: #f8f8f8;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.offerInputT2{
+    width: 70px;
+    margin-top:-110px ;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.offerButton1{
+    width: 130px;
+    height: 50px;
+    background: #3c8bf5;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.offerButton2{
+    width: 130px;
+    height: 50px;
+    background: #3c8bf5;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.lookOffer{
+    width:444px;
+    height:405px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -202px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.lookOfferT li{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.lookOfferL{
+    width: 180px;
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lookOfferR{
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bei{
+    margin-left: 50px;
+}
+.lookOfferButton{
+    cursor: pointer;
+    width: 154px;
+    height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    background: #3c8bf5;
+    margin: 30px auto;
+    display: block;
+}
+.reduceOffer{
+    width:444px;
+    height:330px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.reduceOfferText{
+    width: 325px;
+    margin: 30px auto;
+}
+.reduceOfferInput{
+    width: 320px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+.redT{
+    color: #d60303;
+}
+.refuseOffer{
+    width:440px;
+    height:270px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.blueT{
+    color:#3c8bf5;
+}
+.agreeOffer{
+    width:440px;
+    height:270px;
+    position:absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+}
+.xinHao{
+    width: 210px;
+    margin-left:-10px;
+    margin-bottom: 10px;
+    zoom: 1;
+}
+.xinHao li{
+    padding: 0 10px;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #eee;
+    color: #666;
+}
+
+.seeFa{
+    width: 75px;
+    height: 30px;
+    border: 0;
+    background: #538fde ;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btnBox{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.seeAddress{
+    width: 444px;
+    height: 405px;
+    position: fixed;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -202px;
+    margin-left: -222px;
+    border: solid 10px #a1a4a6;
+}
+
+.offerTitle{
+    height: 45px;
+    background: #f8f8f8;
+    line-height: 45px;
+}
+
+.offerTitleT {
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.addressBox{
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.addressBox p {
+    margin-top: 20px;
+}
+
+
+
+.offerDiv{
+    width: 434px;
+    height: 300px;
+    position:fixed;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -222px;
+    border:solid 10px #a1a4a6;
+    z-index: 102;
+}
+.offerTitle{
+    height: 45px;
+    background: #f8f8f8;
+    line-height: 45px;
+}
+.offerTitleT{
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.offerUl li{
+    height: 60px;
+    line-height:60px;
+}
+.offerInput{
+    width: 304px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px #dadada solid;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.offerInputT{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+label.error{
+    margin-top: -10px;
+    margin-left: 20px;
+}

@@ -1,0 +1,111 @@
+body{
+    background: #c4e4ff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #c4e4ff;
+}
+.center-box{
+    width:1200px;
+    height:350px;
+    margin: 200px auto;
+}
+input.valid{
+    margin-left: 0;
+}
+label.error{
+   position: absolute;
+}
+.leftPic{
+    width: 740px;
+    height: 350px;
+    float: left;
+}
+.loginBox{
+    width: 365px;
+    height: 350px;
+    box-shadow: 5px 5px 15px 15px #e5f0fc;
+    float: right;
+    background: #fff;
+}
+.loginBoxTitle{
+    font-size: 18px;
+}
+.loginContent{
+    width: 300px;
+    height: 255px;
+    margin: 45px auto;
+    position: relative;
+}
+.uerName{
+    margin-top: 25px;
+    padding-left: 48px;
+    height: 40px;
+    width: 252px;
+    font-size: 14px;
+    color: #999999;
+    border: solid #dee3ed 1px;
+}
+.passWord{
+    margin-top: 25px;
+    padding-left: 48px;
+    height: 40px;
+    width: 252px;
+    font-size: 14px;
+    color: #999999;
+    border: solid #dee3ed 1px;
+}
+.textDiv{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    position: relative;
+}
+.loginCheck{
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.ti{
+    margin-left: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+}
+.freeRegistration{
+    position: absolute;
+    right: 0;
+    color: #3c8bf5;
+    cursor: pointer;
+}
+.loginBtn{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    background: #3c8bf5;
+    border: 0;
+    letter-spacing:15px
+}
+.userPic{
+    position: absolute;
+    left: 8px;
+    top: 65px;
+}
+.passPic{
+    position: absolute;
+    left: 10px;
+    top: 132px;
+}
+.forgetPass{
+    font-size: 14px;
+    color: #999999;
+    position: absolute;
+    right: 20px;
+    top: 132px;
+}
+

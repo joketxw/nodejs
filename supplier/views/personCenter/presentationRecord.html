@@ -1,0 +1,71 @@
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>提现记录</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/personCenter/presentationRecord.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include '../common/header'}}
+<div class="contentDiv row">
+    {{include '../common/personLeft'}}
+    <div class="rightDiv">
+        <div class="subMangerTop">
+            <input id="addChildBtn" class="subMangerTopT" type="button" value="申请提现">
+        </div>
+        <div class="subMangerTitle">
+                <div class="wth20">申请人姓名</div>
+                <div class="wth21">提现方式</div>
+                <div class="wth20">提现人全名</div>
+                <div class="wth20">收款账号</div>
+                <div class="wth20">提现金额</div>
+                <div class="wth20">状态</div>
+                <div class="wth20">备注</div>
+                <div class="wth20">交易流水号</div>
+                <div class="wth22">操作时间</div>
+            </div>
+        <ul class="subMangerUl">
+            </ul>
+         <div id="layPageBox"></div>    
+    </div>
+</div>
+<div class="offerDiv hide">
+    <form id="addFm">
+        <div class="offerTitle">
+            <span class="offerTitleT">供应商提现</span>
+        </div>
+        <ul class="offerUl">
+            <li>
+                <div class="offerInputT">提现金额:</div>
+                <input class="offerInput" type="text" id="money" name="money">
+            </li>
+            <li>
+                <div class="offerInputT">提现方式:</div>
+                <select id="bankName" name="bankName" class="offerInput">
+                    <option value="支付宝" class="option">支付宝</option>
+                    <option value="微信" class="option">微信</option>
+                    <option value="银联" class="option">银联</option>
+                </select>
+            </li>
+            <li>
+                <div class="offerInputT">提现人全名:</div>
+                <input class="offerInput" type="text" id="bankUserName" name="bankUserName">
+            </li>
+            <li>
+                <div class="offerInputT">收款账号:</div>
+                <input class="offerInput" type="text" id="bankNo" name="bankNo">
+            </li>
+        <input class="addL" type="button" value="确定">
+        <input class="addR" type="button" value="取消">
+    </form>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+<script src="/js/personCenter/presentationRecord.js"></script>
+</html>

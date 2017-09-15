@@ -1,0 +1,44 @@
+<ul class="sideLeft iblock" id="sideLeft" active="{{active.sideLeft}}">
+    <li name="sideLi" onclick="location.href='/personal/inquiryCar'">询价车</li>
+    <ul active="{{active.inquiryCar}}" name="sideSecond">
+        <li onclick="location.href = '/personal/inquiryCar/info'">询价信息</li>
+        <li onclick="location.href = '/personal/inquiryCar/discussion'">议价信息</li>
+        <li onclick="location.href = '/personal/inquiryCar/history'">历史询价</li>
+    </ul>
+    <li name="sideLi" onclick="location.href = '/personal/orderCenter'">订单中心</li>
+    <li name="sideLi" onclick="location.href = '/personal/orderMonth'">月结订单</li>
+    <li name="sideLi" onclick="location.href = '/personal/orderService'">售后订单</li>
+    <li name="sideLi">账户管理</li>
+    <ul name="sideSecond">
+        <li class="" onclick="location.href = '/personal/accountManger/harvestAddress'">收货地址</li>
+        <li>收票地址</li>
+        <li>开票信息</li>
+        <li>安全设置</li>
+        <li>子账号管理</li>
+    </ul>
+    <li name="sideLi">消息中心</li>
+    <li name="sideLi">绑定银行卡</li>
+    <li name="sideLi">需求发布</li>
+    <ul name="sideSecond">
+        <li>需求发布列表</li>
+    </ul>
+    <li name="sideLi">知识发布</li>
+    <ul name="sideSecond">
+        <li>知识发布列表</li>
+    </ul>
+</ul>
+<script>
+    //一级导航
+    var oLi = document.getElementsByName("sideLi");
+    var num = document.getElementById("sideLeft").getAttribute("active");
+    if(num){oLi[num].setAttribute("class",'active')}
+    //二级导航
+    var oSideSecond = document.getElementsByName("sideSecond");
+    for (var i = 0;i<oSideSecond.length;i++){
+        var secondNum = oSideSecond[i].getAttribute("active");
+        if(secondNum){
+            var oSecondLi = oSideSecond[i].getElementsByTagName("li");
+            oSecondLi[secondNum-1].setAttribute("class",'active');
+        }
+    }
+</script>

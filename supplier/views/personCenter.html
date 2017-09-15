@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/commodityManger.css">
+    <link rel="stylesheet" href="/css/personCenter.css">
+</head>
+<body>
+<input type="hidden" id="imgPath" value="{{imgPath}}">
+{{include './common/header'}}
+<div class="contentDiv row">
+    {{include './common/personLeft'}}
+    <div class="rightDiv">
+		<li class="userInfo"><div>当前用户:</div><div>{{homePageInfo.retEntity.currentUserName}}</div></li>
+		<li class="userInfo"><div>账户余额:</div><div>{{homePageInfo.retEntity.blance}}</div></li>
+		<li class="userInfo"><div>综合评分:</div><div>{{homePageInfo.retEntity.fScore}}</div></li>
+		<li class="userInfo"><div>微信绑定码(请在公众号中输入下面指令进行绑定):</div><p class="bindCode">{{homePageInfo.retEntity.fbindCode}}</p></li>
+    </div>
+</div>
+</body>
+<script src="/js/lib/require/require.js"></script>
+<script src="/js/require-config.js"></script>
+</html>

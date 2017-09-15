@@ -1,0 +1,22 @@
+.subMangerTitle{
+    height: 45px;
+    line-height:45px;
+    border: 1px solid #d1d1d1;
+    margin: 10px auto;
+    width: 1080px;
+    background: #fcfcfc;
+}
+.wth20{
+    width: 16%;
+    float: left;
+    text-align: center;
+}
+.subMangerUl{
+    width: 1080px;
+    margin: 0 auto;
+}
+.subMangerUl>li{
+    height: 73px;
+    line-height: 73px;
+    border:solid 1px #d1d1d1;
+}
